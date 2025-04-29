@@ -33,3 +33,8 @@ Rellena el contenido con tus claves reales.
 ## 🚀 Uso
 
 Edita el archivo `wope.py` si quieres personalizar el mensaje o llama desde otro script. Para lanzar el script:
+```bash
+python wope.py
+```
+
+El texto actual a publicar está definido en el mismo script, en la variable `post_text`.
