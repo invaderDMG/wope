@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Publicador Threads & Bluesky</title>
+    <script defer src="/static/script.js"></script>
+    <style>
+        body { font-family: sans-serif; max-width: 600px; margin: 2rem auto; }
+        textarea { width: 100%; height: 120px; margin-bottom: 1rem; }
+        button { padding: 0.5rem 1rem; font-size: 1rem; }
+        .status { margin-top: 1rem; }
+        .success { color: green; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h1>📝 Publicador de Posts</h1>
+    <textarea id="postText" placeholder="Escribe tu post aquí..."></textarea>
+    <br>
+    <button id="publishBtn">Publicar en Threads y Bluesky</button>
+    <div class="status" id="status"></div>
+</body>
+</html>

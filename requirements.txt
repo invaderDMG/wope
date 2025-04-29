@@ -1,3 +1,4 @@
 ﻿requests
 python-dotenv
 atproto
+flask
